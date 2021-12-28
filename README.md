@@ -11,7 +11,7 @@ Give AFFINE.command permission to execute
 
 1. Press CMD + SPACE
 2. Type ``Terminal`` and hit ENTER
-3. Type ``cd`` (with a space). (Don't hit ENTER yet.)
+3. Type ``cd `` (with a space). (Don't hit ENTER yet.)
 4. Drag the ``AffinePackage_MAC`` folder onto the terminal window, which will add a directory onto the current line
 5. Hit ENTER
 6. Type ``chmod u+x AFFINE.command``
