@@ -37,7 +37,7 @@ Instructions for using Affine Package.
 1. To get started, simply double-click the shortcut called ``AFFINE.command``
 2. Select from the dropdown on the left the type of shape
 3. When available, use the slider on the left to adjust the dimensions of the shape
-4. Either select `General' from the dropdown, or alter the coordinates of your shape using the sliders on the right to create a general polygon. The slider on the left either adds or subtracts vertices from the shape
+4. Either select ``General`` from the dropdown, or alter the coordinates of your shape using the sliders on the right to create a general polygon. The slider on the left either adds or subtracts vertices from the shape
 5. Generate the shape with the ``Generate`` button
 6. In the pop-up window:
     1. Adjust the Temporal and Angular sliders to see symplectic orbits along the shape
@@ -61,7 +61,7 @@ Instructions for using Affine Package.
 1. To get started, simply double-click the shortcut called ``AFFINE``
 2. Select from the dropdown on the left the type of shape
 3. When available, use the slider on the left to adjust the dimensions of the shape
-4. Either select `General' from the dropdown, or alter the coordinates of your shape using the sliders on the right to create a general polygon. The slider on the left either adds or subtracts vertices from the shape
+4. Either select ``General`` from the dropdown, or alter the coordinates of your shape using the sliders on the right to create a general polygon. The slider on the left either adds or subtracts vertices from the shape
 5. Generate the shape with the ``Generate`` button
 6. In the pop-up window:
     1. Adjust the Temporal and Angular sliders to see symplectic orbits along the shape  
