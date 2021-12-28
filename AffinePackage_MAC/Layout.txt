@@ -1,0 +1,26 @@
+AFFINE.command
+	"""a script that can be double clicked to cause the application to execute"""
+	*simply double-click*
+	Executes the command $python $(find / -type d -name AffinePackage_UBUNTU -print -quit  2>&1 | grep -v 'Permission denied')/Manager.py $(find / -type d -name AffinePackage_UBUNTU -print -quit  2>&1 | grep -v 'Permission denied')
+
+Manager.py
+	"""Manager.py: The purpose of this script is to greet the user with a GUI and offer the Load and Create options for many types of shapes."""
+	Use the Radio Buttons to choose which type of shape you would like to create, and then you can play with that shape using the "Generate" button
+	Every generated shape is saved in the "files" directory, where it can again be accessed by pressing the "Load" button. You will be able to choose whichever file you would like to open and play with. 
+
+Viewer.py
+	"""Viewer.py: The purpose of this script is to view a PolyVector by passing just a few parameters"""
+	$ python Viewer.py [filedirectory]
+
+files/
+	"""should store all of the trajectory files"""
+	Contains only *.txt of the form [N, x1, y1, ..., xN, yN, t0, theta0(deg)] delimited by '\n'
+
+PolyVector.py
+	"""PolyVector.py: a module defining the PolyVector class, acting as vertices of planar polygons. Offers multiple instance methods."""
+
+PVector.py
+	"""PVector.py: a module defining the PVector class, acting as vectors in a two-dimensional space with multiple class methods and instance methods"""
+
+Shape.py
+	"""Shape.py: a module that generates the planar shapes called for in main.py. Instance methods."""

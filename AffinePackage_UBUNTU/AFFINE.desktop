@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Terminal=true
+Name=AFFINE
+Exec=sh -c "python $(find / -type d -name AffinePackage_UBUNTU -print -quit 2>&1 | grep -v 'Permission denied')/Manager.py $(find / -type d -name AffinePackage_UBUNTU -print -quit 2>&1 | grep -v 'Permission denied')"
+Comment=Double-click me to launch the Affine Billiards Manager
+Name[en]=AFFINE
