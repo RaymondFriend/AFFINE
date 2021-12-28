@@ -18,7 +18,7 @@ Give AFFINE.command permission to execute
 7. Close the Terminal window
 8. CTRL + Click on ``AFFINE.command``
 9.  Click ``Open``
-10  Click ``Open``
+10.  Click ``Open``
 
 ### Linux
 
